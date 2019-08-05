@@ -16,4 +16,18 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('welcome')
+Route.on('/').render('beranda')
+Route.get('/admin', 'Admin/UserController.index')
+
+Route.group(()=>{
+    Route.get('/sekolah', 'ProfileController.index')
+    Route.get('/guru','ProfileGuruController.index')
+}).prefix('/profile')
+
+Route.group(()=>{
+    Route.get('/','ArtikelController.index')
+}).prefix('/artikel')
+
+Route.group(()=>{
+    Route.get('/','KontakController.index')
+}).prefix('/kontak')

@@ -1,31 +1,20 @@
-# Adonis fullstack application
+# SMP Islam As Sakinah Website
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+## Version and Notes
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+### 19-July-2019 
 
-## Setup
+- Pengajuan surat ke sekolah untuk pembuatan domain
+- pengajuan domain dan hosting ke Niagarahoster
+- templating base Website (done)
 
-Use the adonis command to install the blueprint
+### 18-July-2019
 
-```bash
-adonis new yardstick
-```
+- Minta Data untuk kebutuhan Website seperti Foto, Profil, Kontak, Email dan lain-lain
+- Pengecekan harga domain dan hosting serta kebutuhan untuk membuat domain **sch.id**
 
-or manually clone the repo and then run `npm install`.
+### 17-July-2019
 
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+- Listing kebutuhan wbesite
+- Cari template
+- Templating (Base Website) With AdonisJs
